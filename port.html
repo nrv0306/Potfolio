@@ -9,27 +9,47 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+      <link rel="stylesheet" href="animate.min.css">
+
+
 </head>
 <link rel="icon" href="img/port.png">
-<body>
 <style type="text/css">
-	#container
-	{
-		padding-right: 500px;
-	}
+*
+{
+  margin: 0;
+  padding: 0;
+}
+  .page
+  {
+    padding: 20px;
+    padding-bottom: 1px;
+  }
+  .am
+  {
+    padding: 20px;
+  }
+  .skills
+  {
+    padding: 20px;
+  }
+
 
 </style>
+<body>
+
 						<!-- NAVBAR -->
 <nav>
-    <div class="nav-wrapper teal darken-2">
+    <div class="navbar-fixed teal darken-2">
       <a href="#!" class="brand-logo">Nick Vitelli</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#aboutme"><i class="fa fa-user fa-2x" aria-hidden="true"></i>
 </a></li>
         <li><a href="#project"><i class="fa fa-tasks fa-2x" aria-hidden="true"></i>
 </a></li>
-        <li><a href="-=-">-=-</a></li>
-        <li><a href="-=-">-=-</a></li>
+<li><a href="#skills"><i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+</a></li>
       </ul>
     </div>
   </nav>
@@ -103,8 +123,9 @@
 
 
    						 <!-- ABOUT ME -->
-   	<div class="container"></div>
-    <div id="aboutme" class="rounded section scrollspy teal darken-2">
+   	
+    <div id="aboutme" class="section scrollspy teal darken-2">
+    <div class="container am">
     <h2 class="center-align"><i class="fa fa-user" aria-hidden="true"></i>
 About Me   <i class="fa fa-user" aria-hidden="true"></i>
 </h2>
@@ -116,66 +137,102 @@ High School Life  <i class="fa fa-graduation-cap fa-flip-horizontal" aria-hidden
 Free Time  <i class="fa fa-desktop" aria-hidden="true"></i>
 </h4>
 <h5 class="center-align">I am really big into music and the lastest tech. I play video games in my free time such as, Overwatch as of recently and CS:GO mainly. I alos like to hang out with m friends when I can. </h5>
-
+</div>
 						<!-- PROJECTS -->
 <div id="project" class="rounded section scrollspy teal darken-2">
 <h2 class="center-align"><i class="fa fa-tasks" aria-hidden="true"></i>
-Projects   <i class="fa fa-tasks" aria-hidden="true"></i>
+Projects   <i class="fa fa-tasks" aria-hidden="true"></i> </h2>
+
 						<!-- CARDS -->
-<div class="card">
+
+<div class="container page">
+<div class="card animated bounceInUp wow animated">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/office.jpg">
+      <img class="activator" src="img/wp1.PNG">
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-      <p><a href="#">This is a link</a></p>
+      <span class="card-title activator grey-text text-darken-4">My Site<i class="material-icons right">more_vert</i></span>
+      <p><a href="http://nrv0306.github.io/web-page/web-page-1/home.html">Website</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      <span class="card-title grey-text text-darken-4">My Site<i class="material-icons right">close</i></span>
+      <p>This is my first website I made. It shows the use of images and multiple pages.</p>
     </div>
   </div>
-</div>
-  <div class="card">
+  <div class="card medium">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/office.jpg">
+      <img class="activator" src="img/quiz.png">
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-      <p><a href="#">This is a link</a></p>
+      <span class="card-title activator grey-text text-darken-4">Playstation Quiz<i class="material-icons right">more_vert</i></span>
+      <p><a href="http://nrv0306.github.io/quiz/quiz.html?">Quiz</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-    </div>
-  </div>
-<div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/office.jpg">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-      <p><a href="#">This is a link</a></p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      <span class="card-title grey-text text-darken-4">Playstation Quiz<i class="material-icons right">close</i></span>
+      <p>This is a Playstion quiz I made. It mainly shows the use of JS.</p>
     </div>
   </div>
 
-<div class="card">
+  <div class="card medium">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/office.jpg">
+      <img class="activator" src="img/todo.png">
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-      <p><a href="#">This is a link</a></p>
+      <span class="card-title activator grey-text text-darken-4">My To-Do List<i class="material-icons right">more_vert</i></span>
+      <p><a href="http://nrv0306.github.io/to-do/todo.html">To-Do list</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      <span class="card-title grey-text text-darken-4">To-Do List<i class="material-icons right">close</i></span>
+      <p>I made this To-Do list to show the things I have to do and how many are left. As well as add more tasks</p>
     </div>
   </div>
+  </div>
+        <!--SKILLS -->
+        <div class="container skills">
+<div id="skills" class="rounded section scrollspy teal darken-2">
+<h2 class="center-align"><i class="fa fa-html5" aria-hidden="true"></i>
+Skills   <i class="fa fa-html5" aria-hidden="true"></i> </h2>
+  <table>
+        <thead>
+          <tr>
+              <th data-field="id">Sublime Text</th>
+              <th data-field="name">HTML5</th>
+              <th data-field="price">JS</th>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+              <th data-field="id">CSS3</th>
+              <th data-field="name">Materialize</th>
+              <th data-field="price">Github</th>
+          </tr>
+        </thead>
+  </table>
+  </div>
+
+
+  <footer class="page-footer  teal darken-3">
+          <div class="container footer">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Nick Vitelli</h5>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Social</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="http://Gmail.com">nrv0306@gmail.com</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/nrv360">Twitter</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/nrv0306">Github</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">2016 Nick Vitelli
+            </div>
+          </div>
+        </footer>
+
 
 
 
